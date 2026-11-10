@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Brand implementation in progress; verification pending.
+- Stage: BRAND-001 implemented and merged into `main` (learner reported).
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Storefront, live style guide, explorations, and persuasion interactions implemented; checks and learner review pending.
-- Next small step: Verify design-reference links, run project checks, inspect desktop/mobile and keyboard interactions, and review LEARNING.md before PR.
+- Status: Storefront, style guide, explorations and persuasion interactions implemented; learner reports 10/10 Playwright tests passing and mobile appearance satisfactory.
+- Next small step: Complete outstanding learner reflection fields in LEARNING.md; verify manual keyboard behavior and reference links if required.
 
 ## Product boundary
 
@@ -84,7 +84,7 @@ Write a short result and link only evidence that exists. A passing browser check
 
 | Spec ID   | Files                                                                                                                            | Issue / PR                                                                         | Actual checks and observations                                                             |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| BRAND-001 | `public/index.html`, `public/styleguide.html`, `public/yoga-to-travel.html`, `public/explorations/*.html`, shared CSS and assets | [Issue #1](https://github.com/cs0759/IS-117_Brand-Studio/issues/1), feature branch | Automated checks not run or verified; learner browser/keyboard/mobile observations pending |
+| BRAND-001 | `public/index.html`, `public/styleguide.html`, `public/yoga-to-travel.html`, `public/explorations/*.html`, shared CSS and assets | [Issue #1](https://github.com/cs0759/IS-117_Brand-Studio/issues/1), feature branch | Learner reports 10/10 Playwright tests passing; mobile layout looks good; automated keyboard test passed; manual Tab navigation not confirmed; PR merged per learner |
 
 ## Later
 
