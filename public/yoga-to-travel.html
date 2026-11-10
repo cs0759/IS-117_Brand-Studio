@@ -18,6 +18,14 @@
     .journey-step:nth-child(3) .journey-photo{object-position:center 55%}
     .journey-step h2{font-size:clamp(1.8rem,2.6vw,2.8rem);margin:1.2rem 0}
     .journey-step p{max-width:350px;color:var(--color-muted)}
+    .pace-section{padding-block:3.5rem 4.5rem;border-top:1px solid var(--color-line)}
+    .pace-section h2{margin:1rem 0;max-width:720px}
+    .pace-intro{max-width:640px;color:var(--color-muted)}
+    .pace-choices{display:flex;flex-wrap:wrap;gap:1rem;margin:2rem 0 1.5rem}
+    .pace-choice{background:transparent;border:1px solid var(--color-ink);padding:1rem 1.5rem;color:var(--color-ink);min-height:3.25rem}
+    .pace-choice[aria-pressed="true"]{background:var(--color-ink);color:var(--color-paper)}
+    .pace-result{max-width:660px;padding:1.5rem;background:var(--color-soft)}
+    .pace-result p{margin-bottom:1rem}
     .journey-end{padding-block:3rem 5rem;border-top:1px solid var(--color-line)}
     .journey-end h2{max-width:680px;margin:1rem 0 1.5rem}
     .journey-end p{max-width:650px;margin-bottom:1.5rem}
@@ -49,6 +57,20 @@
       <article class="journey-step"><img class="journey-photo" src="assets/a_crisp_realistic_outdoor_portrait_of_a_young_adu.png" alt="Platinum-blonde editorial model in a fitted white baby tee, pictured in a mossy forest" loading="lazy" width="720" height="900" /><p class="eyebrow">02 / Out the door</p><h2>Pack a small change.</h2><p>A simple white tee, your favorite relaxed bottoms, and comfortable walking shoes can make the transition from class to café feel effortless.</p></article>
       <article class="journey-step"><img class="journey-photo" src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Woodland landscape with an open trail and mountain scenery" loading="lazy" width="720" height="900" /><p class="eyebrow">03 / Open horizons</p><h2>Leave room to wander.</h2><p>Bring a lightweight outer layer, water, and a compact bag for the essentials. Check the weather and terrain before heading out.</p></article>
     </section>
+    <section class="pace-section wrap" aria-labelledby="pace-title">
+      <p class="eyebrow">A little choice / entirely yours</p>
+      <h2 id="pace-title">Where will your day take you?</h2>
+      <p class="pace-intro">Choose the mood that feels most like you. We'll share one outfit idea to match. No account, no obligation, and no purchase needed.</p>
+      <div class="pace-choices" role="group" aria-label="Choose your day">
+        <button class="pace-choice" type="button" data-pace="morning" aria-pressed="false">Slow Morning</button>
+        <button class="pace-choice" type="button" data-pace="horizons" aria-pressed="false">Open Horizons</button>
+      </div>
+      <div class="pace-result" id="pace-result" role="status" aria-live="polite" hidden>
+        <h3 id="pace-result-title"></h3>
+        <p id="pace-result-copy"></p>
+        <a href="index.html#product-title">See the white tee concept <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
     <section class="journey-end wrap">
       <p class="eyebrow">No purchase necessary</p>
       <h2>Take the ideas. Make them yours.</h2>
@@ -56,6 +78,23 @@
       <a class="button button-secondary" href="index.html#product-title">Explore the white tee <span aria-hidden="true">↗</span></a>
     </section>
   </main>
+  <script>
+    const suggestions = {
+      morning: { title: "Slow Morning, your way.", copy: "Pair your favorite comfortable yoga pieces with an easy layer for the trip home. Keep the rest of the day unplanned if you like." },
+      horizons: { title: "Open Horizons, your way.", copy: "Try a simple tee with relaxed trousers, walking shoes, and a layer for changing weather. Bring water and follow the trail that suits you." }
+    };
+    const buttons = document.querySelectorAll("[data-pace]");
+    const result = document.getElementById("pace-result");
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        buttons.forEach((choice) => choice.setAttribute("aria-pressed", String(choice === button)));
+        const suggestion = suggestions[button.dataset.pace];
+        document.getElementById("pace-result-title").textContent = suggestion.title;
+        document.getElementById("pace-result-copy").textContent = suggestion.copy;
+        result.hidden = false;
+      });
+    });
+  </script>
   <footer class="site-footer wrap"><p>IS117 Brand Studio <span class="footer-separator"> / </span> ånde / concept</p><p class="footer-tagline">Fictional product. Real design decisions.</p><a href="index.html">Back to shop</a></footer>
 </body>
 </html>
