@@ -1,18 +1,17 @@
 /* Shared brand tokens. Change these after you agree on your brand direction.
    Both the storefront and the live style guide use this file. */
 :root {
-  --color-paper: #f6f5f0;
-  --color-ink: #171a18;
-  --color-muted: #5a615b;
-  --color-line: #d1d5cc;
-  --color-accent: #e3ef56;
-  --color-soft: #e8eae1;
+  --color-paper: #f5f4ed;
+  --color-ink: #284637;
+  --color-muted: #53695b;
+  --color-line: #cbd5c8;
+  --color-accent: #dce6d9;
+  --color-soft: #e4eae1;
   --color-white: #fff;
   --color-danger: #992e28;
   --font-body:
     system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
-  --font-display:
-    system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+  --font-display: "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
   --font-mono: ui-monospace, sfmono-regular, consolas, monospace;
   --space-1: 0.5rem;
   --space-2: 1rem;
@@ -1295,3 +1294,17 @@ legend {
     animation: none !important;
   }
 }
+
+/* ånde editorial hero — expressive layering without torn-paper motifs. */
+.ande-hero {position:relative;min-height:min(77vw,720px);display:grid;align-items:center;overflow:hidden;background:#718d7c;color:#f9f9f2;isolation:isolate}
+.ande-hero-art {position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(20,45,35,.8) 0%,rgba(30,56,44,.52) 48%,rgba(42,67,53,.14) 100%),radial-gradient(ellipse at 68% 28%,#d4ddd0 0%,#94ab9a 28%,#486d5c 66%,#294b3b 100%)}
+.ande-hero-art::before,.ande-hero-art::after {content:"";position:absolute;inset:0;background:repeating-linear-gradient(100deg,transparent 0 5%,rgba(19,50,37,.28) 5.3% 6.5%,transparent 7% 11%);opacity:.5;filter:blur(3px)}
+.ande-hero-art::after {transform:scale(1.35) translateY(12%);opacity:.4;filter:blur(10px)}
+.ande-mist {position:absolute;inset:32% -10% 0;background:linear-gradient(0deg,rgba(230,238,225,.4),transparent 85%);filter:blur(32px)}
+.ande-hero-copy {padding-block:7rem;position:relative}
+.ande-hero-copy h1 {max-width:860px;font-size:clamp(3.7rem,7.5vw,8rem);letter-spacing:-.045em;font-weight:400;line-height:1.04;margin:1.5rem 0}
+.ande-hero-copy p:not(.eyebrow) {font-size:clamp(1rem,1.7vw,1.35rem);max-width:460px;margin-bottom:2rem}
+.ande-hero-copy .button {background:#f5f4ed;color:#284637;border-color:#f5f4ed}
+.ande-hero-copy .button:hover {background:#dce6d9}
+.product-information h1,.page-hero h1 {letter-spacing:-.055em;font-weight:400}
+@media (width <= 760px) {.ande-hero{min-height:630px}.ande-hero-copy{padding-block:5rem}.ande-hero-copy h1{font-size:clamp(3.3rem,12vw,5.4rem)}}
