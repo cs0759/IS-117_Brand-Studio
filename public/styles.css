@@ -1518,6 +1518,10 @@ legend {
 }
 
 @media (width <= 760px) {
+  .product-section {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .ande-photo-stack {
     grid-template-columns: minmax(0, 1fr) 24%;
     gap: 0.35rem;
