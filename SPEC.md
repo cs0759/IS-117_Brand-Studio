@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Baseline ready to try; brand decisions pending.
+- Stage: Brand direction agreed; implementation and research pending.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Pending learner scope agreement.
-- Next small decision: Confirm the first slice after trying the neutral storefront.
+- Status: Scope agreed; design direction approved, not yet implemented.
+- Next small step: Research references, build matching hero explorations, then implement the selected direction.
 
 ## Product boundary
 
@@ -21,7 +21,7 @@ The primary need guides the page. Give the secondary card one contrasting need t
 
 | Tiny card                             | Primary audience          | Secondary audience        |
 | ------------------------------------- | ------------------------- | ------------------------- |
-| Person in a concrete situation        | Not chosen yet            | Not chosen yet            |
+| Person in a concrete situation        | Yoga and wellness practice | Hiking and travel lifestyle |
 | Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
 | Concern before choosing               | Not chosen yet            | Not chosen yet            |
 | What the page should help them decide | Not chosen yet            | Not chosen yet            |
@@ -31,11 +31,11 @@ The primary need guides the page. Give the secondary card one contrasting need t
 
 | Decision                                 | Agreement      |
 | ---------------------------------------- | -------------- |
-| Brand name                               | Not chosen yet |
-| One-sentence promise                     | Not chosen yet |
-| Primary archetype: the brand's character | Not chosen yet |
-| Three voice traits                       | Not chosen yet |
-| One example line in this voice           | Not chosen yet |
+| Brand name                               | ånde |
+| One-sentence promise                     | For slow mornings and open horizons. |
+| Primary archetype: the brand's character | Explorer with Everyman influences |
+| Three voice traits                       | Soft, poetic, carefree (working interpretation of agreed mood) |
+| One example line in this voice           | A little yoga, a little sunshine, and nowhere you need to be. |
 | Learner's predicted audience effect      | Not chosen yet |
 
 ## Visual decision
@@ -46,14 +46,14 @@ A simple original SVG wordmark is enough. Show small-size and one-color presenta
 
 | Item                                              | Agreement or evidence |
 | ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Not chosen yet        |
+| Shared headline / support / action                | Headline and supporting line above; CTA working proposal: Shop the tee (must match in both previews) |
 | Modernist preview, reference, and annotations     | Not chosen yet        |
 | Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Not chosen yet        |
-| Original SVG logo                                 | Not chosen yet        |
+| Chosen direction and reason                       | Refined postmodernist: layered botanical/forest imagery, without torn-paper edges or handwritten category labels. User preferred the misty forest woman image as hero. |
+| Original SVG logo                                 | Lowercase ånde serif wordmark only, no separate symbol; SVG not built yet |
 | Monochrome and small-size variants                | Not chosen yet        |
 | Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Not chosen yet        |
+| Shared palette, typography, spacing, and assets   | Misty forest greens, soft ivory, delicate elegant serif; forest cover recreation planned, not yet created |
 
 ## Ethical persuasion
 
@@ -84,7 +84,7 @@ Write a short result and link only evidence that exists. A passing browser check
 
 | Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
 | --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| BRAND-001 | SPEC.md updated; implementation pending | [Issue #1](https://github.com/cs0759/IS-117_Brand-Studio/issues/1), feature branch | Baseline check result not verified; learner browser/keyboard/mobile observations pending |
 
 ## Later
 
