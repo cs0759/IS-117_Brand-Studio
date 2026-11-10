@@ -14,7 +14,7 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 | Choice and reason                            | Learner's exact explanation below          | AI helped implement the selected visual direction | Original learner explanation; design review pending |
 | Prediction or visitor benefit                | Pending                                    | Pending             | Pending         |
 | Interpretation of one actual test            | Pending                                    | Pending             | Pending         |
-| Browser observation and keep/revise decision | Learner's observation quoted below         | AI recorded the observation | Positive visual impression; keyboard/mobile review and explicit keep/revise decision pending |
+| Browser observation and keep/revise decision | Learner's observation quoted below         | AI recorded the observation | Positive desktop impression and learner reports mobile looks good; keyboard review and explicit keep/revise decision pending |
 
 ### Learner's explanation of the design choice
 
@@ -23,6 +23,12 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 ### Learner's browser observation
 
 > yes the forest imagery and wispy serif font were perfect for the postmodern activewear aesthetic and feeling of Scandinavian stillness and the outdoors.
+
+### Mobile observation and check status
+
+- **Mobile:** Learner reports checking the phone view and that it looks good; device/browser details not recorded.
+- **Keyboard:** Learner reports pressing Tab did nothing; focus behavior not yet verified.
+- **Automated checks:** `npm run check` passed Prettier, then stopped at seven duplicate-selector Stylelint errors in `public/styles.css`; unit and end-to-end tests have not run in this attempt.
 
 ## AI work and evidence links
 
