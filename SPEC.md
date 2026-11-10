@@ -82,8 +82,8 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files                                                                                                                            | Issue / PR                                                                         | Actual checks and observations                                                             |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Spec ID   | Files                                                                                                                            | Issue / PR                                                                         | Actual checks and observations                                                                                                                                       |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BRAND-001 | `public/index.html`, `public/styleguide.html`, `public/yoga-to-travel.html`, `public/explorations/*.html`, shared CSS and assets | [Issue #1](https://github.com/cs0759/IS-117_Brand-Studio/issues/1), feature branch | Learner reports 10/10 Playwright tests passing; mobile layout looks good; automated keyboard test passed; manual Tab navigation not confirmed; PR merged per learner |
 
 ## Later
