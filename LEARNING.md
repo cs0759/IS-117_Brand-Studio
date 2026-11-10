@@ -9,12 +9,12 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 
 ## Student contributions
 
-| Checkpoint                                   | Actual student words or labeled paraphrase | Assistance supplied | Evidence or gap |
-| -------------------------------------------- | ------------------------------------------ | ------------------- | --------------- |
-| Choice and reason                            | Learner's exact explanation below          | AI helped implement the selected visual direction | Original learner explanation; design review pending |
-| Prediction or visitor benefit                | Not yet supplied in learner's own words | AI suggested that forest imagery and relaxed styling may communicate freedom, nature, and adventure | Learner confirmation pending |
-| Interpretation of one actual test            | Not yet supplied in learner's own words | AI helped diagnose and repair outdated image-asset test | 10 Playwright browser tests passed, as reported by learner; interpretation pending |
-| Browser observation and keep/revise decision | Learner's observation quoted below         | AI recorded the observation | Learner liked forest imagery and serif font; reported phone layout looks good and merged completed feature PR (implicit keep decision) |
+| Checkpoint                                   | Actual student words or labeled paraphrase | Assistance supplied                                                                                 | Evidence or gap                                                                                                                        |
+| -------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Choice and reason                            | Learner's exact explanation below          | AI helped implement the selected visual direction                                                   | Original learner explanation; design review pending                                                                                    |
+| Prediction or visitor benefit                | Not yet supplied in learner's own words    | AI suggested that forest imagery and relaxed styling may communicate freedom, nature, and adventure | Learner confirmation pending                                                                                                           |
+| Interpretation of one actual test            | Not yet supplied in learner's own words    | AI helped diagnose and repair outdated image-asset test                                             | 10 Playwright browser tests passed, as reported by learner; interpretation pending                                                     |
+| Browser observation and keep/revise decision | Learner's observation quoted below         | AI recorded the observation                                                                         | Learner liked forest imagery and serif font; reported phone layout looks good and merged completed feature PR (implicit keep decision) |
 
 ### Learner's explanation of the design choice
 
