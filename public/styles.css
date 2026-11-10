@@ -1308,3 +1308,11 @@ legend {
 .ande-hero-copy .button:hover {background:#dce6d9}
 .product-information h1,.page-hero h1 {letter-spacing:-.055em;font-weight:400}
 @media (width <= 760px) {.ande-hero{min-height:630px}.ande-hero-copy{padding-block:5rem}.ande-hero-copy h1{font-size:clamp(3.3rem,12vw,5.4rem)}}
+
+/* Photographic ånde hero: remote forest image is a temporary stand-in pending upload of the approved original model crop. */
+.ande-hero {min-height:680px;background:#385544}
+.ande-hero-art {background:linear-gradient(90deg,rgba(22,45,34,.85) 0%,rgba(22,45,34,.55) 47%,rgba(22,45,34,.12) 100%),url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1800&q=85") center / cover no-repeat}
+.ande-hero-art::before,.ande-hero-art::after {display:none}
+.ande-mist {opacity:.25;pointer-events:none}
+.ande-hero-copy {z-index:2}
+@media (max-width:760px){.ande-hero-art{background-position:60% center}}
