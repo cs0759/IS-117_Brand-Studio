@@ -78,6 +78,15 @@ test("development refreshes saved HTML, CSS, JavaScript and assets; plain previe
     await save("assets/white-shirt.svg", (svg) =>
       svg.replace("<svg ", '<svg width="123" height="123" '),
     );
+
+    await page.evaluate(() => {
+      const image = document.createElement("img");
+      image.src = "assets/white-shirt.svg";
+      image.alt = "Development asset refresh test";
+      image.style.display = "none";
+      document.body.appendChild(image);
+    });
+
     await expect(
       page.locator('img[src="assets/white-shirt.svg"]'),
     ).toHaveJSProperty("naturalWidth", 123);

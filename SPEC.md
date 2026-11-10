@@ -19,24 +19,24 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
 
-| Tiny card                             | Primary audience          | Secondary audience        |
-| ------------------------------------- | ------------------------- | ------------------------- |
+| Tiny card                             | Primary audience           | Secondary audience          |
+| ------------------------------------- | -------------------------- | --------------------------- |
 | Person in a concrete situation        | Yoga and wellness practice | Hiking and travel lifestyle |
-| Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
-| Concern before choosing               | Not chosen yet            | Not chosen yet            |
-| What the page should help them decide | Not chosen yet            | Not chosen yet            |
-| Evidence or assumption                | Assumption; not validated | Assumption; not validated |
+| Goal or meaning they seek             | Not chosen yet             | Not chosen yet              |
+| Concern before choosing               | Not chosen yet             | Not chosen yet              |
+| What the page should help them decide | Not chosen yet             | Not chosen yet              |
+| Evidence or assumption                | Assumption; not validated  | Assumption; not validated   |
 
 ## Early brand brief
 
-| Decision                                 | Agreement      |
-| ---------------------------------------- | -------------- |
-| Brand name                               | ånde |
-| One-sentence promise                     | For slow mornings and open horizons. |
-| Primary archetype: the brand's character | Explorer with Everyman influences |
+| Decision                                 | Agreement                                                      |
+| ---------------------------------------- | -------------------------------------------------------------- |
+| Brand name                               | ånde                                                           |
+| One-sentence promise                     | For slow mornings and open horizons.                           |
+| Primary archetype: the brand's character | Explorer with Everyman influences                              |
 | Three voice traits                       | Soft, poetic, carefree (working interpretation of agreed mood) |
-| One example line in this voice           | A little yoga, a little sunshine, and nowhere you need to be. |
-| Learner's predicted audience effect      | Not chosen yet |
+| One example line in this voice           | A little yoga, a little sunshine, and nowhere you need to be.  |
+| Learner's predicted audience effect      | Not chosen yet                                                 |
 
 ## Visual decision
 
@@ -44,24 +44,24 @@ Compare two small hero previews before building the whole page. Hold the product
 
 A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
 
-| Item                                              | Agreement or evidence |
-| ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Headline and supporting line above; CTA working proposal: Shop the tee (must match in both previews) |
-| Modernist preview, reference, and annotations     | Implemented in `public/explorations/modernist.html`; reference URL and visual presentation require verification |
-| Postmodernist preview, reference, and annotations | Implemented in `public/explorations/postmodernist.html`; reference URL and visual presentation require verification |
+| Item                                              | Agreement or evidence                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Shared headline / support / action                | Headline and supporting line above; CTA working proposal: Shop the tee (must match in both previews)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Modernist preview, reference, and annotations     | Implemented in `public/explorations/modernist.html`; reference URL and visual presentation require verification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Postmodernist preview, reference, and annotations | Implemented in `public/explorations/postmodernist.html`; reference URL and visual presentation require verification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Chosen direction and reason                       | Refined postmodernist: layered botanical/forest imagery, without torn-paper edges or handwritten category labels. Learner's exact reasoning: “I chose postmodernism over modernism for my brand because Ande is about being carefree, spontaneous, and free-spirited, and it is geared to women who enjoy yoga, adventure, the outdoors, and travel. Postmodernism felt more fitting than modernism because design-wise, it is all over the place and doesn't play by the rules of clean lines or minimalism. The collage-like aesthetic and fullness of postmodern design is what makes sense for a yoga brand that leans into the Explorer archetype.” |
-| Original SVG logo                                 | Lowercase ånde serif wordmark only, no separate symbol; SVG implemented at `public/assets/ande-wordmark.svg` |
-| Monochrome and small-size variants                | Displayed in `public/styleguide.html`; visual review pending |
-| Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Misty forest greens, soft ivory, delicate elegant serif; shared in `public/styles.css` and used across storefront, style guide, and Yoga to Travel |
+| Original SVG logo                                 | Lowercase ånde serif wordmark only, no separate symbol; SVG implemented at `public/assets/ande-wordmark.svg`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Monochrome and small-size variants                | Displayed in `public/styleguide.html`; visual review pending                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Logo review at actual use size                    | Not checked yet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Shared palette, typography, spacing, and assets   | Misty forest greens, soft ivory, delicate elegant serif; shared in `public/styles.css` and used across storefront, style guide, and Yoga to Travel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ## Ethical persuasion
 
 Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
 
-| Principle      | Actual copy or interaction | Visitor benefit / factual support |
-| -------------- | -------------------------- | --------------------------------- |
-| Reciprocity | Free `Yoga to Travel` tab with three practical outfit/packing ideas; explicitly says no purchase necessary | Visitors get useful suggestions without signup or purchase; no unsupported product claims |
+| Principle                | Actual copy or interaction                                                                                                                             | Visitor benefit / factual support                                                                                |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| Reciprocity              | Free `Yoga to Travel` tab with three practical outfit/packing ideas; explicitly says no purchase necessary                                             | Visitors get useful suggestions without signup or purchase; no unsupported product claims                        |
 | Commitment & Consistency | Optional `Slow Morning` or `Open Horizons` buttons on `public/yoga-to-travel.html` reveal a corresponding styling suggestion and optional product link | Visitors make a voluntary preference choice and see relevant guidance; no data collection or purchase obligation |
 
 ## BRAND-001 — first branded storefront and live style guide
@@ -82,8 +82,8 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
+| Spec ID   | Files                                                                                                                            | Issue / PR                                                                         | Actual checks and observations                                                             |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | BRAND-001 | `public/index.html`, `public/styleguide.html`, `public/yoga-to-travel.html`, `public/explorations/*.html`, shared CSS and assets | [Issue #1](https://github.com/cs0759/IS-117_Brand-Studio/issues/1), feature branch | Automated checks not run or verified; learner browser/keyboard/mobile observations pending |
 
 ## Later
