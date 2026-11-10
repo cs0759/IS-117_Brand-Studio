@@ -1316,3 +1316,8 @@ legend {
 .ande-mist {opacity:.25;pointer-events:none}
 .ande-hero-copy {z-index:2}
 @media (max-width:760px){.ande-hero-art{background-position:60% center}}
+
+/* Portrait treatment for the ånde white-tee editorial section. */
+.product-visual {overflow:hidden;background:#dce6d9}
+.product-visual .shirt-image {aspect-ratio:4 / 5;object-fit:cover;object-position:center 35%;filter:saturate(.8) contrast(.96)}
+.product-visual .visual-label {color:#f7f7ee;text-shadow:0 1px 8px #183425;background:rgba(24,49,36,.28);padding:.45rem .6rem}
