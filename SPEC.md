@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Brand direction agreed; implementation and research pending.
+- Stage: Brand implementation in progress; verification pending.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Scope agreed; design direction approved, not yet implemented.
-- Next small step: Research references, build matching hero explorations, then implement the selected direction.
+- Status: Storefront, live style guide, explorations, and persuasion interactions implemented; checks and learner review pending.
+- Next small step: Verify design-reference links, run project checks, inspect desktop/mobile and keyboard interactions, and review LEARNING.md before PR.
 
 ## Product boundary
 
@@ -47,13 +47,13 @@ A simple original SVG wordmark is enough. Show small-size and one-color presenta
 | Item                                              | Agreement or evidence |
 | ------------------------------------------------- | --------------------- |
 | Shared headline / support / action                | Headline and supporting line above; CTA working proposal: Shop the tee (must match in both previews) |
-| Modernist preview, reference, and annotations     | Not chosen yet        |
-| Postmodernist preview, reference, and annotations | Not chosen yet        |
+| Modernist preview, reference, and annotations     | Implemented in `public/explorations/modernist.html`; reference URL and visual presentation require verification |
+| Postmodernist preview, reference, and annotations | Implemented in `public/explorations/postmodernist.html`; reference URL and visual presentation require verification |
 | Chosen direction and reason                       | Refined postmodernist: layered botanical/forest imagery, without torn-paper edges or handwritten category labels. Learner's exact reasoning: “I chose postmodernism over modernism for my brand because Ande is about being carefree, spontaneous, and free-spirited, and it is geared to women who enjoy yoga, adventure, the outdoors, and travel. Postmodernism felt more fitting than modernism because design-wise, it is all over the place and doesn't play by the rules of clean lines or minimalism. The collage-like aesthetic and fullness of postmodern design is what makes sense for a yoga brand that leans into the Explorer archetype.” |
-| Original SVG logo                                 | Lowercase ånde serif wordmark only, no separate symbol; SVG not built yet |
-| Monochrome and small-size variants                | Not chosen yet        |
+| Original SVG logo                                 | Lowercase ånde serif wordmark only, no separate symbol; SVG implemented at `public/assets/ande-wordmark.svg` |
+| Monochrome and small-size variants                | Displayed in `public/styleguide.html`; visual review pending |
 | Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Misty forest greens, soft ivory, delicate elegant serif; forest cover recreation planned, not yet created |
+| Shared palette, typography, spacing, and assets   | Misty forest greens, soft ivory, delicate elegant serif; shared in `public/styles.css` and used across storefront, style guide, and Yoga to Travel |
 
 ## Ethical persuasion
 
@@ -61,8 +61,8 @@ Choose two applications that help the visitor make a voluntary, informed decisio
 
 | Principle      | Actual copy or interaction | Visitor benefit / factual support |
 | -------------- | -------------------------- | --------------------------------- |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
+| Reciprocity | Free `Yoga to Travel` tab with three practical outfit/packing ideas; explicitly says no purchase necessary | Visitors get useful suggestions without signup or purchase; no unsupported product claims |
+| Commitment & Consistency | Optional `Slow Morning` or `Open Horizons` buttons on `public/yoga-to-travel.html` reveal a corresponding styling suggestion and optional product link | Visitors make a voluntary preference choice and see relevant guidance; no data collection or purchase obligation |
 
 ## BRAND-001 — first branded storefront and live style guide
 
@@ -84,7 +84,7 @@ Write a short result and link only evidence that exists. A passing browser check
 
 | Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
 | --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | SPEC.md updated; implementation pending | [Issue #1](https://github.com/cs0759/IS-117_Brand-Studio/issues/1), feature branch | Baseline check result not verified; learner browser/keyboard/mobile observations pending |
+| BRAND-001 | `public/index.html`, `public/styleguide.html`, `public/yoga-to-travel.html`, `public/explorations/*.html`, shared CSS and assets | [Issue #1](https://github.com/cs0759/IS-117_Brand-Studio/issues/1), feature branch | Automated checks not run or verified; learner browser/keyboard/mobile observations pending |
 
 ## Later
 
