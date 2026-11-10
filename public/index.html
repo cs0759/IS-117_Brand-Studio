@@ -5,38 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="An unfinished, neutral T-shirt storefront for the IS117 Brand Studio. Build a brand through deliberate, visible design choices."
+      content="ånde: a white tee concept for slow mornings and open horizons. Classroom demo storefront."
     />
-    <title>Your Brand — neutral storefront starter</title>
+    <title>ånde — slow mornings and open horizons</title>
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="styles.css" />
     <script src="shop.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <aside class="starter-notice" aria-label="Starter information">
-      <span
-        ><strong>Unfinished by design.</strong> This is a neutral teaching
-        starter. Replace its identity after your brand decisions.</span
-      >
-      <a href="studio.html"
-        >Enter the studio <span aria-hidden="true">↗</span></a
-      >
-    </aside>
+
     <header class="site-header wrap">
-      <a
-        class="brand-link"
-        href="index.html"
-        aria-label="Your Brand storefront home"
+      <a class="brand-link" href="index.html" aria-label="ånde storefront home"
         ><img
           class="wordmark"
-          src="assets/wordmark.svg"
-          alt="Neutral starter wordmark"
+          src="assets/ande-wordmark.svg"
+          alt="ånde wordmark"
           width="175"
           height="26"
       /></a>
       <nav class="main-nav" aria-label="Main navigation">
         <a class="nav-link" href="index.html" aria-current="page">Shop</a>
+        <a class="nav-link" href="yoga-to-travel.html">Yoga to Travel</a>
         <a class="nav-link" href="styleguide.html">Style guide</a>
         <a class="nav-link" href="studio.html"
           >Studio <span aria-hidden="true">↗</span></a
@@ -48,35 +38,61 @@
     </header>
 
     <main id="main">
+      <section class="ande-hero" aria-labelledby="ande-headline">
+        <div class="ande-hero-art" aria-hidden="true">
+          <span class="ande-mist"></span>
+        </div>
+        <div class="ande-hero-copy wrap">
+          <p class="eyebrow">ånde / find your own pace</p>
+          <h1 id="ande-headline">For slow mornings<br />and open horizons.</h1>
+          <p>A little yoga, a little sunshine, and nowhere you need to be.</p>
+          <a class="button button-primary" href="#product-title"
+            >Explore the white tee <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
       <section class="product-section wrap" aria-labelledby="product-title">
         <div class="product-visual">
-          <div class="visual-label">
-            <span>001 / The starting point</span><span>Unbranded</span>
+          <div class="ande-photo-stack">
+            <div class="ande-photo-primary">
+              <div class="visual-label">
+                <span>001 / The white tee</span><span>ånde / concept</span>
+              </div>
+              <img
+                class="shirt-image"
+                src="assets/a_crisp_realistic_outdoor_portrait_of_a_young_adu.png"
+                alt="Platinum-blonde fashion model wearing a fitted white baby tee with cap sleeves in a mossy forest; concept image"
+                width="800"
+                height="880"
+                loading="lazy"
+              />
+            </div>
+            <div class="ande-photo-detail" aria-hidden="true">
+              <img
+                src="assets/a_crisp_realistic_outdoor_portrait_of_a_young_adu.png"
+                alt=""
+                loading="lazy"
+              />
+            </div>
           </div>
-          <img
-            class="shirt-image"
-            src="assets/white-shirt.svg"
-            alt="Plain white, unbranded short-sleeved T-shirt"
-            width="800"
-            height="880"
-            fetchpriority="high"
-          />
           <div class="image-caption">
-            <span>One product. Room for your point of view.</span
+            <span>A little room to wander.</span
             ><span aria-hidden="true">↙</span>
           </div>
         </div>
         <div class="product-information">
           <p class="eyebrow">
-            <span class="status-dot" aria-hidden="true"></span> Neutral product
-            / demo only
+            <span class="status-dot" aria-hidden="true"></span> ånde / classroom
+            demo
           </p>
-          <h1 id="product-title">The white<br />T-shirt.</h1>
-          <p class="product-intro">A plain shirt. A place to begin.</p>
+          <h1 id="product-title">The white<br />tee.</h1>
+          <p class="product-intro">
+            A simple silhouette for everyday movement.
+          </p>
           <p class="muted product-description">
-            This starter has a working product page and room for a brand. Its
-            audience, personality, message, and visual direction are still yours
-            to decide.
+            A fitted baby-tee concept with delicate cap sleeves, imagined for
+            moments between movement and rest. The editorial photograph is a
+            generated concept image, not a verified product listing.
           </p>
           <div class="price-row">
             <p class="price">$28 <span>USD</span></p>
@@ -129,7 +145,7 @@
             </div>
             <div>
               <dt>Brand identity</dt>
-              <dd>Not decided yet</dd>
+              <dd>ånde / concept</dd>
             </div>
             <div>
               <dt>Product claims</dt>
@@ -169,16 +185,15 @@
       </section>
 
       <section class="starter-next wrap" aria-labelledby="next-title">
-        <p class="eyebrow">For the person building this site</p>
-        <h2 id="next-title">The shirt stays.<br />The story is your work.</h2>
+        <p class="eyebrow">A softer kind of adventure</p>
+        <h2 id="next-title">Find your own pace.</h2>
         <div>
           <p>
-            Choose who this is for, decide what the brand should express, and
-            make those choices visible. Keep the storefront and its
-            <a href="styleguide.html">live style guide</a> in sync.
+            Whether the morning starts on a mat or a trail, there is no single
+            way to wander.
           </p>
-          <a class="button button-secondary" href="studio.html"
-            >See the studio brief <span aria-hidden="true">↗</span></a
+          <a class="button button-secondary" href="styleguide.html"
+            >Explore our design story <span aria-hidden="true">↗</span></a
           >
         </div>
       </section>
@@ -186,8 +201,8 @@
 
     <footer class="site-footer wrap">
       <p>
-        IS117 Brand Studio <span class="footer-separator"> / </span> Neutral
-        starter
+        IS117 Brand Studio <span class="footer-separator"> / </span> ånde /
+        concept
       </p>
       <p class="footer-tagline">Fictional product. Real design decisions.</p>
       <a href="https://github.com/kaw393939/is117-brand-studio#readme"
