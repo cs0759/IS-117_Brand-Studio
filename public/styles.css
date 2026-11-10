@@ -1321,3 +1321,13 @@ legend {
 .product-visual {overflow:hidden;background:#dce6d9}
 .product-visual .shirt-image {aspect-ratio:4 / 5;object-fit:cover;object-position:center 35%;filter:saturate(.8) contrast(.96)}
 .product-visual .visual-label {color:#f7f7ee;text-shadow:0 1px 8px #183425;background:rgba(24,49,36,.28);padding:.45rem .6rem}
+
+/* Refined editorial product image composition, using existing illustrative photo until the approved custom portrait is hosted. */
+.ande-photo-stack{display:grid;grid-template-columns:minmax(0,1fr) 29%;gap:.75rem;align-items:stretch;padding:.7rem;background:var(--color-paper)}
+.ande-photo-primary{min-width:0;position:relative;overflow:hidden;background:#dbe2d9}
+.ande-photo-primary .shirt-image{width:100%;height:100%;min-height:490px;aspect-ratio:3/4;object-fit:cover}
+.ande-photo-primary .visual-label{inset:1rem 1rem auto;flex-wrap:wrap}
+.ande-photo-detail{overflow:hidden;background:#dce6d9}
+.ande-photo-detail img{width:100%;height:100%;object-fit:cover;object-position:70% center;transform:scale(1.8);filter:saturate(.72)}
+.product-section{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(2rem,5vw,6rem)}
+@media(max-width:760px){.ande-photo-stack{grid-template-columns:minmax(0,1fr) 24%;gap:.35rem;padding:.35rem}.ande-photo-primary .shirt-image{min-height:360px}}
