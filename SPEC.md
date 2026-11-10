@@ -49,7 +49,7 @@ A simple original SVG wordmark is enough. Show small-size and one-color presenta
 | Shared headline / support / action                | Headline and supporting line above; CTA working proposal: Shop the tee (must match in both previews) |
 | Modernist preview, reference, and annotations     | Not chosen yet        |
 | Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Refined postmodernist: layered botanical/forest imagery, without torn-paper edges or handwritten category labels. User preferred the misty forest woman image as hero. |
+| Chosen direction and reason                       | Refined postmodernist: layered botanical/forest imagery, without torn-paper edges or handwritten category labels. Learner's exact reasoning: “I chose postmodernism over modernism for my brand because Ande is about being carefree, spontaneous, and free-spirited, and it is geared to women who enjoy yoga, adventure, the outdoors, and travel. Postmodernism felt more fitting than modernism because design-wise, it is all over the place and doesn't play by the rules of clean lines or minimalism. The collage-like aesthetic and fullness of postmodern design is what makes sense for a yoga brand that leans into the Explorer archetype.” |
 | Original SVG logo                                 | Lowercase ånde serif wordmark only, no separate symbol; SVG not built yet |
 | Monochrome and small-size variants                | Not chosen yet        |
 | Logo review at actual use size                    | Not checked yet       |
